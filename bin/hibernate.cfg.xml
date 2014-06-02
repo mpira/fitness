@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-configuration PUBLIC
+		"-//Hibernate/Hibernate Configuration DTD 3.0//EN"
+		"http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+    <session-factory>
+        <property name="hibernate.connection.driver_class">com.mysql.jdbc.Driver</property>
+        <property name="hibernate.connection.url">jdbc:mysql://localhost/fitnessclub</property>
+        <property name="hibernate.connection.username">root</property>
+        <property name="hibernate.connection.password"></property>
+        <property name="hibernate.dialect">org.hibernate.dialect.MySQLDialect</property>
+        
+        
+        <property name="hibernate.transaction.factory_class">org.hibernate.transaction.JDBCTransactionFactory</property>
+		<property name="show_sql">true</property>
+		<property name="hibernate.format_sql">true</property>
+		<property name="use_sql_comments">true</property>
+		<property name="hbm2ddl.auto">validate</property>
+        
+        
+        
+        
+        <mapping class="pojo.Membre"/>
+        <mapping class="pojo.Adresse"/>
+        <mapping class="pojo.Assiste"/>
+        <mapping class="pojo.Categorie"/>
+       
+        <mapping class="pojo.Coach"/>
+        <mapping class="pojo.Compte"/>
+       
+        <mapping class="pojo.Contacturgence"/>
+	    <mapping class="pojo.Courscollectif"/>
+	    <mapping class="pojo.DoitAvoir"/>
+		
+		<mapping class="pojo.Donne"/>
+		
+		<mapping class="pojo.Emploie"/>
+		                       
+	    <mapping class="pojo.Employe"/>
+	    <mapping class="pojo.Engage"/>
+		                         
+	    <mapping class="pojo.Fitnessclub"/>
+	    <mapping class="pojo.Guest"/>
+		<mapping class="pojo.Horaire"/>
+		<mapping class="pojo.Identification"/>
+		<mapping class="pojo.Lockers"/>
+	    <mapping class="pojo.Loue"/>
+		                               
+		<mapping class="pojo.Personne"/>
+		<mapping class="pojo.PeutAssister"/>
+		                                   
+		<mapping class="pojo.Produits"/>
+		<mapping class="pojo.Profcours"/>
+		                                      
+		<mapping class="pojo.Vend"/>
+		                                        
+    </session-factory>
+</hibernate-configuration>

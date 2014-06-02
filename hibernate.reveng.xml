@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-reverse-engineering PUBLIC "-//Hibernate/Hibernate Reverse Engineering DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-reverse-engineering-3.0.dtd" >
+
+<hibernate-reverse-engineering>
+  <table-filter match-catalog="fitnessclub" match-name="adresse"/>
+  <table-filter match-catalog="fitnessclub" match-name="assiste"/>
+  <table-filter match-catalog="fitnessclub" match-name="categorie"/>
+  <table-filter match-catalog="fitnessclub" match-name="coach"/>
+  <table-filter match-catalog="fitnessclub" match-name="compte"/>
+  <table-filter match-catalog="fitnessclub" match-name="contacturgence"/>
+  <table-filter match-catalog="fitnessclub" match-name="courscollectif"/>
+  <table-filter match-catalog="fitnessclub" match-name="doit_avoir"/>
+  <table-filter match-catalog="fitnessclub" match-name="donne"/>
+  <table-filter match-catalog="fitnessclub" match-name="emploie"/>
+  <table-filter match-catalog="fitnessclub" match-name="employe"/>
+  <table-filter match-catalog="fitnessclub" match-name="engage"/>
+  <table-filter match-catalog="fitnessclub" match-name="fitnessclub"/>
+  <table-filter match-catalog="fitnessclub" match-name="guest"/>
+  <table-filter match-catalog="fitnessclub" match-name="horaire"/>
+  <table-filter match-catalog="fitnessclub" match-name="identification"/>
+  <table-filter match-catalog="fitnessclub" match-name="lockers"/>
+  <table-filter match-catalog="fitnessclub" match-name="loue"/>
+  <table-filter match-catalog="fitnessclub" match-name="membre"/>
+  <table-filter match-catalog="fitnessclub" match-name="personne"/>
+  <table-filter match-catalog="fitnessclub" match-name="peut_assister"/>
+  <table-filter match-catalog="fitnessclub" match-name="produits"/>
+  <table-filter match-catalog="fitnessclub" match-name="profcours"/>
+  <table-filter match-catalog="fitnessclub" match-name="propose"/>
+  <table-filter match-catalog="fitnessclub" match-name="vend"/>
+</hibernate-reverse-engineering>
